@@ -10,7 +10,7 @@ public class OddOccuringElement {
     }
 
     public static void main(String[] args){
-        ArrayList<Integer> ar = new ArrayList<>(Arrays.asList(2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2));
-        System.out.println(getOddOccurrence(ar));
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2));
+        System.out.println(getOddOccurrence(arr));
     }
 }

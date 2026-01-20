@@ -1,3 +1,4 @@
+package Theory;
 class DuplicateNames{
     public int findDuplicate(int[] nums) {
         int low = 1;

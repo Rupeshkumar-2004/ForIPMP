@@ -11,6 +11,7 @@ public class UniqueNumbers {
 
         // Get its last set bit
         xor &= -xor;
+        
         int[] res = new int[2];
         
         for(int num : arr){
